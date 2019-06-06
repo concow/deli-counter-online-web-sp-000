@@ -1,3 +1,5 @@
+#Enumeration refers to traversing over objects. In Ruby, we call an object enumerable when it describes a set of items and a method to loop over each of them.
+
 def line(deli)
     if deli.empty?                                        #.empty? method
       puts "The line is currently empty."
