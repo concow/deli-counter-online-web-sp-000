@@ -3,7 +3,7 @@ def line(deli)
       puts "The line is currently empty."
     else
       message = "The line is currently:"
-      deli.each.with_index(1) { |name, int|       #enumerator with_index iterates the given block for each index, starting from 0. If no block, returns an enumerator.
+      deli.each.with_index(1) { |name, int|       #enumerator (chained together) with_index iterates the given block for each index, starting from 0. If no block, returns an enumerator.
         message << " #{int}. #{name}"                     #interpolating 'int' to number in line and 'name' to person
       }
       puts message
